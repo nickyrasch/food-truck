@@ -1,2 +1,2 @@
-module TruckHelper
+module TrucksHelper
 end
