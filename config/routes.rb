@@ -4,10 +4,12 @@ Rails.application.routes.draw do
 
   root to: "home#index"
 
+  resources :trucks
+
   scope "api" do
     scope "v1" do
-      resources :food_trucks
-      resources :food_items
+      resources :trucks
+      # todo resources :menu_items
     end
   end
 end
